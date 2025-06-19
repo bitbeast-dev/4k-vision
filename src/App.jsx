@@ -645,7 +645,11 @@ export default function Page() {
                   {testimonial.client} -{" "}
                   <span className="font-normal">{testimonial.role}</span>
                 </cite>
-                <img src={testimonial.image} className="w-30 h-30 rounded-full object-center p-2" alt="" />
+             <img
+                  src={testimonial.image}
+                  className="w-30 h-30 rounded-full object-center p-2 mx-auto"
+                  alt=""
+                />
               </div>
             ))}
           </div>
